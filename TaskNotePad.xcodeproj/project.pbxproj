@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52432D3C62494872A1A61B80 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D722931A59447DEBEEE95A1 /* libPods.a */; };
 		E53D7698199D3EF100E71814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D7697199D3EF100E71814 /* AppDelegate.swift */; };
 		E53D769B199D3EF100E71814 /* TaskNotePad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E53D7699199D3EF100E71814 /* TaskNotePad.xcdatamodeld */; };
-		E53D769D199D3EF200E71814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D769C199D3EF200E71814 /* ViewController.swift */; };
-		E53D76A0199D3EF200E71814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53D769E199D3EF200E71814 /* Main.storyboard */; };
+		E53D769D199D3EF200E71814 /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D769C199D3EF200E71814 /* GoogleMapViewController.swift */; };
+		E53D76A0199D3EF200E71814 /* TaskNotePad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53D769E199D3EF200E71814 /* TaskNotePad.storyboard */; };
 		E53D76A2199D3EF200E71814 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53D76A1199D3EF200E71814 /* Images.xcassets */; };
 		E53D76AE199D3EF200E71814 /* TaskNotePadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D76AD199D3EF200E71814 /* TaskNotePadTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,16 +27,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28D83ECB6A5643D1BA207E59 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5D722931A59447DEBEEE95A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53D7692199D3EF100E71814 /* TaskNotePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskNotePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53D7696199D3EF100E71814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53D7697199D3EF100E71814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E53D769A199D3EF100E71814 /* TaskNotePad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskNotePad.xcdatamodel; sourceTree = "<group>"; };
-		E53D769C199D3EF200E71814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E53D769F199D3EF200E71814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E53D769C199D3EF200E71814 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
+		E53D769F199D3EF200E71814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TaskNotePad.storyboard; sourceTree = "<group>"; };
 		E53D76A1199D3EF200E71814 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E53D76A7199D3EF200E71814 /* TaskNotePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskNotePadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53D76AC199D3EF200E71814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53D76AD199D3EF200E71814 /* TaskNotePadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNotePadTests.swift; sourceTree = "<group>"; };
+		E53D76B7199D414000E71814 /* TaskNotePad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskNotePad-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52432D3C62494872A1A61B80 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		774772F3B04F4C948AED127B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D722931A59447DEBEEE95A1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E53D7689199D3EF100E71814 = {
 			isa = PBXGroup;
 			children = (
 				E53D7694199D3EF100E71814 /* TaskNotePad */,
 				E53D76AA199D3EF200E71814 /* TaskNotePadTests */,
 				E53D7693199D3EF100E71814 /* Products */,
+				28D83ECB6A5643D1BA207E59 /* Pods.xcconfig */,
+				774772F3B04F4C948AED127B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +93,12 @@
 			isa = PBXGroup;
 			children = (
 				E53D7697199D3EF100E71814 /* AppDelegate.swift */,
-				E53D769C199D3EF200E71814 /* ViewController.swift */,
-				E53D769E199D3EF200E71814 /* Main.storyboard */,
+				E53D769C199D3EF200E71814 /* GoogleMapViewController.swift */,
+				E53D769E199D3EF200E71814 /* TaskNotePad.storyboard */,
 				E53D76A1199D3EF200E71814 /* Images.xcassets */,
 				E53D7699199D3EF100E71814 /* TaskNotePad.xcdatamodeld */,
 				E53D7695199D3EF100E71814 /* Supporting Files */,
+				E53D76B7199D414000E71814 /* TaskNotePad-Bridging-Header.h */,
 			);
 			path = TaskNotePad;
 			sourceTree = "<group>";
@@ -119,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E53D76B1199D3EF200E71814 /* Build configuration list for PBXNativeTarget "TaskNotePad" */;
 			buildPhases = (
+				EA44D7912CD144CC9BEB264A /* Check Pods Manifest.lock */,
 				E53D768E199D3EF100E71814 /* Sources */,
 				E53D768F199D3EF100E71814 /* Frameworks */,
 				E53D7690199D3EF100E71814 /* Resources */,
+				0D1CDA0B440D48348D96966C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,7 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E53D76A0199D3EF200E71814 /* Main.storyboard in Resources */,
+				E53D76A0199D3EF200E71814 /* TaskNotePad.storyboard in Resources */,
 				E53D76A2199D3EF200E71814 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,12 +224,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D1CDA0B440D48348D96966C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA44D7912CD144CC9BEB264A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E53D768E199D3EF100E71814 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E53D769D199D3EF200E71814 /* ViewController.swift in Sources */,
+				E53D769D199D3EF200E71814 /* GoogleMapViewController.swift in Sources */,
 				E53D769B199D3EF100E71814 /* TaskNotePad.xcdatamodeld in Sources */,
 				E53D7698199D3EF100E71814 /* AppDelegate.swift in Sources */,
 			);
@@ -236,12 +287,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E53D769E199D3EF200E71814 /* Main.storyboard */ = {
+		E53D769E199D3EF200E71814 /* TaskNotePad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E53D769F199D3EF200E71814 /* Base */,
 			);
-			name = Main.storyboard;
+			name = TaskNotePad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,23 +379,30 @@
 		};
 		E53D76B2199D3EF200E71814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D83ECB6A5643D1BA207E59 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TaskNotePad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TaskNotePad/TaskNotePad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E53D76B3199D3EF200E71814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D83ECB6A5643D1BA207E59 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TaskNotePad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TaskNotePad/TaskNotePad-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -403,6 +461,7 @@
 				E53D76B3199D3EF200E71814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E53D76B4199D3EF200E71814 /* Build configuration list for PBXNativeTarget "TaskNotePadTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +470,7 @@
 				E53D76B6199D3EF200E71814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
