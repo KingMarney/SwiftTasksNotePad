@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E53D7698199D3EF100E71814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D7697199D3EF100E71814 /* AppDelegate.swift */; };
+		E53D769B199D3EF100E71814 /* TaskNotePad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E53D7699199D3EF100E71814 /* TaskNotePad.xcdatamodeld */; };
+		E53D769D199D3EF200E71814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D769C199D3EF200E71814 /* ViewController.swift */; };
+		E53D76A0199D3EF200E71814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53D769E199D3EF200E71814 /* Main.storyboard */; };
+		E53D76A2199D3EF200E71814 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53D76A1199D3EF200E71814 /* Images.xcassets */; };
+		E53D76AE199D3EF200E71814 /* TaskNotePadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53D76AD199D3EF200E71814 /* TaskNotePadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E53D76A8199D3EF200E71814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E53D768A199D3EF100E71814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53D7691199D3EF100E71814;
+			remoteInfo = TaskNotePad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E53D7692199D3EF100E71814 /* TaskNotePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskNotePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53D7696199D3EF100E71814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53D7697199D3EF100E71814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E53D769A199D3EF100E71814 /* TaskNotePad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskNotePad.xcdatamodel; sourceTree = "<group>"; };
+		E53D769C199D3EF200E71814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E53D769F199D3EF200E71814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E53D76A1199D3EF200E71814 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E53D76A7199D3EF200E71814 /* TaskNotePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskNotePadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53D76AC199D3EF200E71814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53D76AD199D3EF200E71814 /* TaskNotePadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNotePadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E53D768F199D3EF100E71814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53D76A4199D3EF200E71814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E53D7689199D3EF100E71814 = {
+			isa = PBXGroup;
+			children = (
+				E53D7694199D3EF100E71814 /* TaskNotePad */,
+				E53D76AA199D3EF200E71814 /* TaskNotePadTests */,
+				E53D7693199D3EF100E71814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E53D7693199D3EF100E71814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E53D7692199D3EF100E71814 /* TaskNotePad.app */,
+				E53D76A7199D3EF200E71814 /* TaskNotePadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E53D7694199D3EF100E71814 /* TaskNotePad */ = {
+			isa = PBXGroup;
+			children = (
+				E53D7697199D3EF100E71814 /* AppDelegate.swift */,
+				E53D769C199D3EF200E71814 /* ViewController.swift */,
+				E53D769E199D3EF200E71814 /* Main.storyboard */,
+				E53D76A1199D3EF200E71814 /* Images.xcassets */,
+				E53D7699199D3EF100E71814 /* TaskNotePad.xcdatamodeld */,
+				E53D7695199D3EF100E71814 /* Supporting Files */,
+			);
+			path = TaskNotePad;
+			sourceTree = "<group>";
+		};
+		E53D7695199D3EF100E71814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E53D7696199D3EF100E71814 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E53D76AA199D3EF200E71814 /* TaskNotePadTests */ = {
+			isa = PBXGroup;
+			children = (
+				E53D76AD199D3EF200E71814 /* TaskNotePadTests.swift */,
+				E53D76AB199D3EF200E71814 /* Supporting Files */,
+			);
+			path = TaskNotePadTests;
+			sourceTree = "<group>";
+		};
+		E53D76AB199D3EF200E71814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E53D76AC199D3EF200E71814 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E53D7691199D3EF100E71814 /* TaskNotePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53D76B1199D3EF200E71814 /* Build configuration list for PBXNativeTarget "TaskNotePad" */;
+			buildPhases = (
+				E53D768E199D3EF100E71814 /* Sources */,
+				E53D768F199D3EF100E71814 /* Frameworks */,
+				E53D7690199D3EF100E71814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskNotePad;
+			productName = TaskNotePad;
+			productReference = E53D7692199D3EF100E71814 /* TaskNotePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E53D76A6199D3EF200E71814 /* TaskNotePadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53D76B4199D3EF200E71814 /* Build configuration list for PBXNativeTarget "TaskNotePadTests" */;
+			buildPhases = (
+				E53D76A3199D3EF200E71814 /* Sources */,
+				E53D76A4199D3EF200E71814 /* Frameworks */,
+				E53D76A5199D3EF200E71814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E53D76A9199D3EF200E71814 /* PBXTargetDependency */,
+			);
+			name = TaskNotePadTests;
+			productName = TaskNotePadTests;
+			productReference = E53D76A7199D3EF200E71814 /* TaskNotePadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E53D768A199D3EF100E71814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Exmaples;
+				TargetAttributes = {
+					E53D7691199D3EF100E71814 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					E53D76A6199D3EF200E71814 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = E53D7691199D3EF100E71814;
+					};
+				};
+			};
+			buildConfigurationList = E53D768D199D3EF100E71814 /* Build configuration list for PBXProject "TaskNotePad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E53D7689199D3EF100E71814;
+			productRefGroup = E53D7693199D3EF100E71814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E53D7691199D3EF100E71814 /* TaskNotePad */,
+				E53D76A6199D3EF200E71814 /* TaskNotePadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E53D7690199D3EF100E71814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D76A0199D3EF200E71814 /* Main.storyboard in Resources */,
+				E53D76A2199D3EF200E71814 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53D76A5199D3EF200E71814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E53D768E199D3EF100E71814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D769D199D3EF200E71814 /* ViewController.swift in Sources */,
+				E53D769B199D3EF100E71814 /* TaskNotePad.xcdatamodeld in Sources */,
+				E53D7698199D3EF100E71814 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53D76A3199D3EF200E71814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D76AE199D3EF200E71814 /* TaskNotePadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E53D76A9199D3EF200E71814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E53D7691199D3EF100E71814 /* TaskNotePad */;
+			targetProxy = E53D76A8199D3EF200E71814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E53D769E199D3EF200E71814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53D769F199D3EF200E71814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E53D76AF199D3EF200E71814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E53D76B0199D3EF200E71814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E53D76B2199D3EF200E71814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TaskNotePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E53D76B3199D3EF200E71814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TaskNotePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E53D76B5199D3EF200E71814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaskNotePad.app/TaskNotePad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaskNotePadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		E53D76B6199D3EF200E71814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaskNotePad.app/TaskNotePad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaskNotePadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E53D768D199D3EF100E71814 /* Build configuration list for PBXProject "TaskNotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53D76AF199D3EF200E71814 /* Debug */,
+				E53D76B0199D3EF200E71814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53D76B1199D3EF200E71814 /* Build configuration list for PBXNativeTarget "TaskNotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53D76B2199D3EF200E71814 /* Debug */,
+				E53D76B3199D3EF200E71814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E53D76B4199D3EF200E71814 /* Build configuration list for PBXNativeTarget "TaskNotePadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53D76B5199D3EF200E71814 /* Debug */,
+				E53D76B6199D3EF200E71814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E53D7699199D3EF100E71814 /* TaskNotePad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E53D769A199D3EF100E71814 /* TaskNotePad.xcdatamodel */,
+			);
+			currentVersion = E53D769A199D3EF100E71814 /* TaskNotePad.xcdatamodel */;
+			path = TaskNotePad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E53D768A199D3EF100E71814 /* Project object */;
+}
